@@ -5,8 +5,8 @@ import numpy as np
 # ============================================================
 # 3d 系列 (Ti II, V II, Cr II, Fe II, Cu II)
 d3 = np.array([0.8443, 0.8601, 0.9035, 0.9721, 0.7984])
-# 4d 系列 (Zr III, Nb III, Mo III, Rh III, Pd III) - 纠正后
-d4 = np.array([1.7286, 1.7954, 1.9167, 1.9523, 2.0328])
+# 4d 系列 (Nb III, Mo III, Rh III, Pd III, Ag III) — 剔除 Ru III（纯d能级仅5条）
+d4 = np.array([1.7286, 1.7954, 1.9523, 2.0328, 1.4272])
 # 5d 系列 (Lu II, Hf II, Ta II, W II, Os III)
 d5 = np.array([2.6267, 2.7710, 3.0779, 3.1470, 2.6691])
 
